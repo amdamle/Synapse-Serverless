@@ -64,7 +64,7 @@ TSQL support in serverless is enhanced to support querying semi-structured data 
 First Create a Database using following command and then set the Master Key </br>
 ```
 CREATE DATABASE synsvrlessdemo;
-CREATE MASTER KEY ENCRYPTION BY PASSWORD = 'n97&^>WgH.'-- Master key is a symmetric key used to protect the private keys and asymmetric keys that are present in the database.
+CREATE MASTER KEY ENCRYPTION BY PASSWORD = '<STRONG_PWD>'-- Master key is a symmetric key used to protect the private keys and asymmetric keys that are present in the database.
 ```
  _Note: - This is a one time setup_ </br>
 
