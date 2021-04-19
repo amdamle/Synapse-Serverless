@@ -182,3 +182,6 @@ Refer [Best Practices](https://docs.microsoft.com/en-us/azure/synapse-analytics/
 
 ## **More Learning**
 https://www.youtube.com/watch?v=JXdFAEYCO-M
+
+## **Copy Transform Data using Synpase Integrate**
+Documentation [ETL using Synapse Serverless Pool](https://docs.microsoft.com/en-us/azure/data-factory/connector-azure-sql-data-warehouse)
