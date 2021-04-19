@@ -24,7 +24,7 @@ In this article I am going to cover the Synpse Serverless Pool. Objective is to 
 
 **When to use Dedicated SQL Pool and Serverless Pool?**
 
- # | Serverless Pools | On Demand Pools
+ Features | Serverless Pools | On Demand Pools
  ---------|----------|---------
   Cluster Provisioning | Not Required | Required
   SLA | few Seconds to Mins | Milli Sec
