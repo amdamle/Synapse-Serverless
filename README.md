@@ -1,5 +1,5 @@
 # Synapse Analytics - Serverless Pool
-This is a quickstart guide for users starting new with Azure Synapse Serverless Pools. 
+This is a quickstart guide for users new to Azure Synapse Serverless Pools. 
 ## **Quick Recap on Synapse Analytics**
 ![Synapse](synapse.png)
 
