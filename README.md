@@ -167,7 +167,7 @@ Select top 10
    WHERE nyc.tip_amount >5
 ```
 ## **Scenario - 4: Conneting From Local Machine**
-> * Connect to SQL On Demand using dedicated sql end point present in workspace
+> * [ Connect to SQL On Demand using sql end point](https://docs.microsoft.com/en-us/azure/synapse-analytics/sql/get-started-azure-data-studio)
 
 ## **Scenario - 5: Best Practices**
 Refer [Best Practices](https://docs.microsoft.com/en-us/azure/synapse-analytics/sql/best-practices-serverless-sql-pool) from Documentation 
