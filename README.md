@@ -60,7 +60,7 @@ TSQL support in serverless is enhanced to support querying semi-structured data 
 
 **Lets Jump to Hands-on**
 
-## ** Scenario - 1: Create Database, Schema, External File Format and External Table **
+## **Scenario - 1: Create Database, Schema, External File Format and External Table**
 First Create a Database using following command and then set the Master Key </br>
 ```
 CREATE DATABASE synsvrlessdemo;
@@ -102,7 +102,7 @@ WITH (
 
 ```
 
-## ** Scenario - 2: Execute Query Directly and using External Table **
+## **Scenario - 2: Execute Query Directly and using External Table**
 Direct Query using OPENROWSET functons
 ```
 SELECT TOP 10 *
@@ -143,7 +143,7 @@ WHERE
   ORDER by country_name ASC
 
 ```
-## ** Scenario - 3: Work with Linked Storages and Query on Parquet Files **
+## **Scenario - 3: Work with Linked Storages and Query on Parquet Files**
 
 > * What is a Linked Storage?
 > * Supported Linked Storages and How to Add?
@@ -166,10 +166,10 @@ Select top 10
    ON nyc.payment_type = ref.payment_type 
    WHERE nyc.tip_amount >5
 ```
-## ** Scenario - 4: Conneting From Local Machine **
+## **Scenario - 4: Conneting From Local Machine**
 > * Connect to SQL On Demand using dedicated sql end point present in workspace
 
-## ** Scenario - 5: Best Practices **
+## **Scenario - 5: Best Practices**
 Refer [Best Practices](https://docs.microsoft.com/en-us/azure/synapse-analytics/sql/best-practices-serverless-sql-pool) from Documentation 
 >  Tuning - 
 >  1. Use colocated Storage
