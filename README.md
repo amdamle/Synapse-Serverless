@@ -177,7 +177,7 @@ Refer [Best Practices](https://docs.microsoft.com/en-us/azure/synapse-analytics/
 >  3. Limit the query by applying filters for getting quick response
 >  4. Make use of file meta path for specifying partioning
 >  5. Partitioning when used please make sure to have size min 100MB to 1GB  
->  6. Its a good practice to update the stats especially working with formats other than parquet 
+>  6. Its a good practice to update the [stats](https://docs.microsoft.com/en-us/azure/synapse-analytics/sql/develop-tables-statistics#statistics-in-serverless-sql-pool) especially working with formats other than parquet 
 
 
 ## **More Learning**
